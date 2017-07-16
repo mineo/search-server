@@ -394,8 +394,8 @@ public class SearchAll2Test
         String output = sw.toString();
         System.out.println(output);
         assertTrue(output.contains("<entity-list count=\"4\" offset=\"0\">"));
-        assertTrue(output.contains("<label id=\"a539bb1e-f2e1-4b45-9db8-8053841e7504\" type=\"holding\" ext:score=\"100\">"));
-        assertTrue(output.contains("<artist id=\"4302e264-1cf0-4d1f-aca7-2a6f89e34b36\" type=\"Group\" ext:score=\"56\">"));
+        assertTrue(output.contains("<label ext:score=\"100\" id=\"a539bb1e-f2e1-4b45-9db8-8053841e7504\" type=\"holding\">"));
+        assertTrue(output.contains("<artist ext:score=\"56\" id=\"4302e264-1cf0-4d1f-aca7-2a6f89e34b36\" type=\"Group\">"));
 
     }
 

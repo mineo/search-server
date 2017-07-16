@@ -666,7 +666,7 @@ public class FindArtistTest {
         assertTrue(output.contains("\"id\":\"6302e264-1cf0-4d1f-aca7-2a6f89e34b36\","));
         assertTrue(output.contains("\"name\":\"Canada\","));
         assertTrue(output.contains("\"sort-name\":\"Canada\""));
-
+        assertTrue(output.contains("\"score\":100.0"));
     }
 
     /**
@@ -685,7 +685,7 @@ public class FindArtistTest {
         String output = sw.toString();
         System.out.println("JSON New Pretty is" + output);
         assertTrue(output.contains("\"offset\" : 0"));
-
+        assertTrue(output.contains("\"score\" : 100.0"));
     }
 
 
@@ -712,7 +712,7 @@ public class FindArtistTest {
         assertTrue(output.contains("\"name\" : \"Echo And The Bunnymen\""));
         assertTrue(output.contains("\"locale\" : null,"));
         assertTrue(output.contains("\"type\" : null,"));
-
+        assertTrue(output.contains("\"score\" : 100.0"));
     }
 
 }

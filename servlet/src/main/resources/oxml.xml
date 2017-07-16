@@ -522,5 +522,152 @@
                 </xml-element>
             </java-attributes>
         </java-type>
+        <java-type name="Annotation">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Artist">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Cdstub">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="DefAreaElementInner">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Disc">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Editor">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Event">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="FreedbDisc">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Instrument">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Isrc">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Label">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Place">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Puid">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Recording">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="ReleaseGroup">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Release">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Series">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Tag">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Url">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="UserTag">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
+        <java-type name="Work">
+            <java-attributes>
+                <xml-element java-attribute="score">
+                    <xml-java-type-adapter value="org.musicbrainz.search.servlet.moxy.DoubleStringAdapter"/>
+                </xml-element>
+            </java-attributes>
+        </java-type>
     </java-types>
 </xml-bindings>

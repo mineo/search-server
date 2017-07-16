@@ -268,7 +268,7 @@ public class FindInstrumentTest {
 
         String output = sw.toString();
         System.out.println("Xml Ident is" + output);
-        assertTrue(output.contains("<instrument id=\"ff571ff4-04cb-4b9c-8a1c-354c330f863c\" type=\"Brass\" ext:score=\"100\">"));
+        assertTrue(output.contains("<instrument ext:score=\"100\" id=\"ff571ff4-04cb-4b9c-8a1c-354c330f863c\" type=\"Brass\">"));
         assertTrue(output.contains("<instrument-list count=\"1\" offset=\"0\">"));
         assertTrue(output.contains("<name>Trombone</name>"));
         assertTrue(output.contains("<description>Brassy</description>"));
@@ -293,7 +293,7 @@ public class FindInstrumentTest {
 
         String output = sw.toString();
         System.out.println("Xml Ident is" + output);
-        assertTrue(output.contains("<instrument id=\"ff571ff4-04cb-4b9c-8a1c-354c330f863c\" type=\"Brass\" ext:score=\"100\">"));
+        assertTrue(output.contains("<instrument ext:score=\"100\" id=\"ff571ff4-04cb-4b9c-8a1c-354c330f863c\" type=\"Brass\">"));
         assertTrue(output.contains("<instrument-list count=\"1\" offset=\"0\">"));
         assertTrue(output.contains("<name>Trombone</name>"));
         assertTrue(output.contains("<description>Brassy</description>"));
